@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "ZXTabBarController.h"
+#import "ZXNavigationController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +18,18 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    NSString *parcentStr =[@"%E5%B0%8F%E7%BC%96%E6%8E%A8%E8%8D%90" stringByRemovingPercentEncoding];
+    ZXLog(@"%@",parcentStr);
+    
+    self.window =[[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    
+    ZXTabBarController *tab =[[ZXTabBarController alloc] init];
+    ZXNavigationController *navi =[[ZXNavigationController alloc] initWithRootViewController:tab];
+    self.window.rootViewController =navi;
+    self.window.backgroundColor =[UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
