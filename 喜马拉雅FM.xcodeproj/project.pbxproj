@@ -7,15 +7,183 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3515436E1EE003820048ACA5 /* ZXEditorMoreVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3515436D1EE003820048ACA5 /* ZXEditorMoreVC.m */; };
+		351543711EE003C70048ACA5 /* ZXEditorMoreViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 351543701EE003C70048ACA5 /* ZXEditorMoreViewModel.m */; };
+		351543741EE0048B0048ACA5 /* ZXEditorModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 351543731EE0048B0048ACA5 /* ZXEditorModel.m */; };
+		351543771EE006E10048ACA5 /* ZXEditorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 351543761EE006E10048ACA5 /* ZXEditorCell.m */; };
+		3515437A1EE0101D0048ACA5 /* ZXSpecialMoreVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 351543791EE0101D0048ACA5 /* ZXSpecialMoreVC.m */; };
+		3515437D1EE010770048ACA5 /* ZXSpecialMoreViewMoel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3515437C1EE010770048ACA5 /* ZXSpecialMoreViewMoel.m */; };
+		351543801EE0125E0048ACA5 /* ZXSpecialModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3515437F1EE0125E0048ACA5 /* ZXSpecialModel.m */; };
+		351543831EE014CD0048ACA5 /* ZXJumpVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 351543821EE014CD0048ACA5 /* ZXJumpVC.m */; };
+		351543871EE0152A0048ACA5 /* ZXMoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 351543861EE0152A0048ACA5 /* ZXMoreViewController.m */; };
+		3515438A1EE0159B0048ACA5 /* ZXMoreRecommendController.m in Sources */ = {isa = PBXBuildFile; fileRef = 351543891EE0159B0048ACA5 /* ZXMoreRecommendController.m */; };
+		3515438D1EE015D00048ACA5 /* ZXMoreContentViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3515438C1EE015D00048ACA5 /* ZXMoreContentViewModel.m */; };
+		351543901EE017C20048ACA5 /* ZXMoreCategoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3515438F1EE017C20048ACA5 /* ZXMoreCategoryCell.m */; };
+		351543931EE0197E0048ACA5 /* ZXMoreCategoryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 351543921EE0197E0048ACA5 /* ZXMoreCategoryVC.m */; };
+		351543961EE019DA0048ACA5 /* ZXMoreCategoryViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 351543951EE019DA0048ACA5 /* ZXMoreCategoryViewModel.m */; };
+		353950151ED7F17D00146DD1 /* ZXBaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 353950141ED7F17D00146DD1 /* ZXBaseViewModel.m */; };
+		3539501B1ED7F37000146DD1 /* ZXHomePageViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3539501A1ED7F37000146DD1 /* ZXHomePageViewModel.m */; };
+		3539501E1ED7F54E00146DD1 /* ZXBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3539501D1ED7F54E00146DD1 /* ZXBaseModel.m */; };
+		353950211ED7F5AA00146DD1 /* ZXHomePageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 353950201ED7F5AA00146DD1 /* ZXHomePageModel.m */; };
+		353950241ED7FA1400146DD1 /* ZXBaseNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 353950231ED7FA1400146DD1 /* ZXBaseNetManager.m */; };
+		353950271ED7FE0300146DD1 /* ZXHomePageNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 353950261ED7FE0300146DD1 /* ZXHomePageNetManager.m */; };
+		3539502A1ED7FEBD00146DD1 /* ZXCategoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 353950291ED7FEBD00146DD1 /* ZXCategoryModel.m */; };
+		3539502D1ED8134800146DD1 /* ZXAnchorModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3539502C1ED8134800146DD1 /* ZXAnchorModel.m */; };
+		353950301ED814AC00146DD1 /* ZXRankModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3539502F1ED814AC00146DD1 /* ZXRankModel.m */; };
+		353950331ED815A100146DD1 /* ZXLiveModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 353950321ED815A100146DD1 /* ZXLiveModel.m */; };
+		3539503D1ED81D5D00146DD1 /* ZXFindPutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3539503C1ED81D5D00146DD1 /* ZXFindPutCell.m */; };
+		353950401ED81D9200146DD1 /* ZXContentShowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3539503F1ED81D9200146DD1 /* ZXContentShowView.m */; };
+		353950431ED8293200146DD1 /* ZXDiscoveryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 353950421ED8293200146DD1 /* ZXDiscoveryCell.m */; };
+		353950461ED82B1800146DD1 /* ZXSpecialCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 353950451ED82B1800146DD1 /* ZXSpecialCell.m */; };
+		353950491ED82D6000146DD1 /* ZXFocusImageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 353950481ED82D6000146DD1 /* ZXFocusImageScrollView.m */; };
+		3539504C1ED8330F00146DD1 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3539504B1ED8330F00146DD1 /* iCarousel.m */; };
+		3539504F1ED849B500146DD1 /* ZXTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3539504E1ED849B500146DD1 /* ZXTitleView.m */; };
+		353950521ED84B6900146DD1 /* ZXMoreButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 353950511ED84B6900146DD1 /* ZXMoreButton.m */; };
+		353950551ED84EFA00146DD1 /* ZXDestinationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 353950541ED84EFA00146DD1 /* ZXDestinationVC.m */; };
+		353950581ED84F3C00146DD1 /* ZXAlbumHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 353950571ED84F3C00146DD1 /* ZXAlbumHeaderView.m */; };
+		3539505B1ED84F6B00146DD1 /* ZXPicView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3539505A1ED84F6B00146DD1 /* ZXPicView.m */; };
+		3539505E1ED84FC900146DD1 /* ZXIconNameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3539505D1ED84FC900146DD1 /* ZXIconNameView.m */; };
+		353950611ED8500F00146DD1 /* ZXDescView.m in Sources */ = {isa = PBXBuildFile; fileRef = 353950601ED8500F00146DD1 /* ZXDescView.m */; };
+		353950651ED8521B00146DD1 /* ZXTracksViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 353950641ED8521B00146DD1 /* ZXTracksViewModel.m */; };
+		353950681ED8533F00146DD1 /* ZXDestinationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 353950671ED8533F00146DD1 /* ZXDestinationModel.m */; };
+		3539506B1ED853CB00146DD1 /* ZXMoreCotentNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3539506A1ED853CB00146DD1 /* ZXMoreCotentNetManager.m */; };
+		3539506E1ED8546700146DD1 /* ZXContentsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3539506D1ED8546700146DD1 /* ZXContentsModel.m */; };
+		353950711ED8551B00146DD1 /* ZXMenusModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 353950701ED8551B00146DD1 /* ZXMenusModel.m */; };
+		353950741ED8558000146DD1 /* ZXContentCategoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 353950731ED8558000146DD1 /* ZXContentCategoryModel.m */; };
+		3539507D1ED8575A00146DD1 /* ZXMusicDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3539507C1ED8575A00146DD1 /* ZXMusicDetailCell.m */; };
 		355443961ED6F7E1003B43F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 355443951ED6F7E1003B43F1 /* main.m */; };
 		355443991ED6F7E1003B43F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 355443981ED6F7E1003B43F1 /* AppDelegate.m */; };
 		3554439C1ED6F7E1003B43F1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3554439B1ED6F7E1003B43F1 /* ViewController.m */; };
 		3554439F1ED6F7E1003B43F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3554439D1ED6F7E1003B43F1 /* Main.storyboard */; };
 		355443A11ED6F7E1003B43F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 355443A01ED6F7E1003B43F1 /* Assets.xcassets */; };
 		355443A41ED6F7E1003B43F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 355443A21ED6F7E1003B43F1 /* LaunchScreen.storyboard */; };
+		357B07151ED70C99001AE5B8 /* MBProgressHUD+ZX.m in Sources */ = {isa = PBXBuildFile; fileRef = 357B07141ED70C99001AE5B8 /* MBProgressHUD+ZX.m */; };
+		357B07181ED70E94001AE5B8 /* ZXPlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 357B07171ED70E94001AE5B8 /* ZXPlayView.m */; };
+		357B07231ED722A3001AE5B8 /* ZXMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 357B07221ED722A3001AE5B8 /* ZXMeViewController.m */; };
+		357B072B1ED7232C001AE5B8 /* ZXDownloadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 357B072A1ED7232C001AE5B8 /* ZXDownloadViewController.m */; };
+		357B07341ED723B7001AE5B8 /* ZXFindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 357B07331ED723B7001AE5B8 /* ZXFindViewController.m */; };
+		357B073F1ED72412001AE5B8 /* ZXSoundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 357B073E1ED72412001AE5B8 /* ZXSoundViewController.m */; };
+		357B07421ED7282A001AE5B8 /* ZXAttentionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 357B07411ED7282A001AE5B8 /* ZXAttentionVC.m */; };
+		357B07451ED72863001AE5B8 /* ZXCollectVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 357B07441ED72863001AE5B8 /* ZXCollectVC.m */; };
+		357B07481ED7289B001AE5B8 /* ZXHistoryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 357B07471ED7289B001AE5B8 /* ZXHistoryVC.m */; };
+		357B074B1ED7398A001AE5B8 /* ZXHomePageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 357B074A1ED7398A001AE5B8 /* ZXHomePageVC.m */; };
+		357B074E1ED739CA001AE5B8 /* ZXCategoryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 357B074D1ED739CA001AE5B8 /* ZXCategoryVC.m */; };
+		357B07511ED73A09001AE5B8 /* ZXLiveVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 357B07501ED73A09001AE5B8 /* ZXLiveVC.m */; };
+		357B07541ED73A29001AE5B8 /* ZXRankingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 357B07531ED73A29001AE5B8 /* ZXRankingVC.m */; };
+		357B07571ED73A4A001AE5B8 /* ZXAnchorVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 357B07561ED73A4A001AE5B8 /* ZXAnchorVC.m */; };
+		357B07591ED74068001AE5B8 /* MeSetting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 357B07581ED74068001AE5B8 /* MeSetting.storyboard */; };
+		35BC27ED1ED701C900635903 /* ZXTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35BC27EC1ED701C900635903 /* ZXTabBarController.m */; };
+		35BC27F51ED7025B00635903 /* ZXNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35BC27F41ED7025B00635903 /* ZXNavigationController.m */; };
+		35CF74C91ED745DD00DBC975 /* ZXAlbumVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CF74C81ED745DD00DBC975 /* ZXAlbumVC.m */; };
+		35CF74CC1ED7460C00DBC975 /* ZXSoundVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CF74CB1ED7460C00DBC975 /* ZXSoundVC.m */; };
+		35CF74CF1ED7462400DBC975 /* ZXDownloadingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CF74CE1ED7462400DBC975 /* ZXDownloadingVC.m */; };
+		35E4F3D91EE39D01008AF42E /* ZXCategorySpecialCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E4F3D81EE39D01008AF42E /* ZXCategorySpecialCell.m */; };
+		35E4F3DC1EE3A037008AF42E /* ZXCategoryButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E4F3DB1EE3A037008AF42E /* ZXCategoryButton.m */; };
+		35E4F3DF1EE3A12A008AF42E /* ZXCategoryCommonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E4F3DE1EE3A12A008AF42E /* ZXCategoryCommonCell.m */; };
+		35E4F3E21EE3A283008AF42E /* ZXCategoryViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E4F3E11EE3A283008AF42E /* ZXCategoryViewModel.m */; };
+		35E4F3E51EE3AC62008AF42E /* ZXLiveViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E4F3E41EE3AC62008AF42E /* ZXLiveViewModel.m */; };
+		35E4F3E81EE3AE6F008AF42E /* ZXLiveRadioCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E4F3E71EE3AE6F008AF42E /* ZXLiveRadioCell.m */; };
+		35E4F3EB1EE3B006008AF42E /* ZXLiveRecommandCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E4F3EA1EE3B006008AF42E /* ZXLiveRecommandCell.m */; };
+		35E4F3EE1EE3B078008AF42E /* ZXLiveTopCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E4F3ED1EE3B078008AF42E /* ZXLiveTopCell.m */; };
+		35E4F3F11EE3B5FB008AF42E /* ZXRankViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E4F3F01EE3B5FB008AF42E /* ZXRankViewModel.m */; };
+		35E4F3F41EE3B68F008AF42E /* ZXRankCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E4F3F31EE3B68F008AF42E /* ZXRankCell.m */; };
+		35E4F3F71EE3BB5E008AF42E /* ZXAnchorViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E4F3F61EE3BB5E008AF42E /* ZXAnchorViewModel.m */; };
+		35E4F3FA1EE3BBBD008AF42E /* ZXAnchorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E4F3F91EE3BBBD008AF42E /* ZXAnchorCell.m */; };
+		35E4F3FD1EE3BBE4008AF42E /* ZXAnchorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E4F3FC1EE3BBE4008AF42E /* ZXAnchorView.m */; };
+		35E4F4001EE3C225008AF42E /* ZXSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E4F3FF1EE3C225008AF42E /* ZXSettingViewController.m */; };
+		D35F85C6BE2AF90C22899B52 /* libPods-喜马拉雅FM.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 23D5EE043815493B6DE1CCDE /* libPods-喜马拉雅FM.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		23D5EE043815493B6DE1CCDE /* libPods-喜马拉雅FM.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-喜马拉雅FM.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3515436C1EE003820048ACA5 /* ZXEditorMoreVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZXEditorMoreVC.h; path = "Class/公有类/Controller/ZXEditorMoreVC.h"; sourceTree = "<group>"; };
+		3515436D1EE003820048ACA5 /* ZXEditorMoreVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZXEditorMoreVC.m; path = "Class/公有类/Controller/ZXEditorMoreVC.m"; sourceTree = "<group>"; };
+		3515436F1EE003C70048ACA5 /* ZXEditorMoreViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZXEditorMoreViewModel.h; path = "Class/公有类/ViewModel/ZXEditorMoreViewModel.h"; sourceTree = "<group>"; };
+		351543701EE003C70048ACA5 /* ZXEditorMoreViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZXEditorMoreViewModel.m; path = "Class/公有类/ViewModel/ZXEditorMoreViewModel.m"; sourceTree = "<group>"; };
+		351543721EE0048B0048ACA5 /* ZXEditorModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZXEditorModel.h; path = "Class/公有类/Model/ZXEditorModel.h"; sourceTree = "<group>"; };
+		351543731EE0048B0048ACA5 /* ZXEditorModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZXEditorModel.m; path = "Class/公有类/Model/ZXEditorModel.m"; sourceTree = "<group>"; };
+		351543751EE006E10048ACA5 /* ZXEditorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZXEditorCell.h; path = "Class/公有类/View/ZXEditorCell.h"; sourceTree = "<group>"; };
+		351543761EE006E10048ACA5 /* ZXEditorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZXEditorCell.m; path = "Class/公有类/View/ZXEditorCell.m"; sourceTree = "<group>"; };
+		351543781EE0101D0048ACA5 /* ZXSpecialMoreVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZXSpecialMoreVC.h; path = "Class/公有类/Controller/ZXSpecialMoreVC.h"; sourceTree = "<group>"; };
+		351543791EE0101D0048ACA5 /* ZXSpecialMoreVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZXSpecialMoreVC.m; path = "Class/公有类/Controller/ZXSpecialMoreVC.m"; sourceTree = "<group>"; };
+		3515437B1EE010770048ACA5 /* ZXSpecialMoreViewMoel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZXSpecialMoreViewMoel.h; path = "Class/公有类/ViewModel/ZXSpecialMoreViewMoel.h"; sourceTree = "<group>"; };
+		3515437C1EE010770048ACA5 /* ZXSpecialMoreViewMoel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZXSpecialMoreViewMoel.m; path = "Class/公有类/ViewModel/ZXSpecialMoreViewMoel.m"; sourceTree = "<group>"; };
+		3515437E1EE0125E0048ACA5 /* ZXSpecialModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZXSpecialModel.h; path = "Class/公有类/Model/ZXSpecialModel.h"; sourceTree = "<group>"; };
+		3515437F1EE0125E0048ACA5 /* ZXSpecialModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZXSpecialModel.m; path = "Class/公有类/Model/ZXSpecialModel.m"; sourceTree = "<group>"; };
+		351543811EE014CD0048ACA5 /* ZXJumpVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZXJumpVC.h; path = "Class/公有类/Controller/ZXJumpVC.h"; sourceTree = "<group>"; };
+		351543821EE014CD0048ACA5 /* ZXJumpVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZXJumpVC.m; path = "Class/公有类/Controller/ZXJumpVC.m"; sourceTree = "<group>"; };
+		351543851EE0152A0048ACA5 /* ZXMoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZXMoreViewController.h; path = "Class/公有类/Controller/ZXMoreViewController.h"; sourceTree = "<group>"; };
+		351543861EE0152A0048ACA5 /* ZXMoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZXMoreViewController.m; path = "Class/公有类/Controller/ZXMoreViewController.m"; sourceTree = "<group>"; };
+		351543881EE0159B0048ACA5 /* ZXMoreRecommendController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZXMoreRecommendController.h; path = "Class/公有类/Controller/ZXMoreRecommendController.h"; sourceTree = "<group>"; };
+		351543891EE0159B0048ACA5 /* ZXMoreRecommendController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZXMoreRecommendController.m; path = "Class/公有类/Controller/ZXMoreRecommendController.m"; sourceTree = "<group>"; };
+		3515438B1EE015D00048ACA5 /* ZXMoreContentViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZXMoreContentViewModel.h; path = "Class/公有类/ViewModel/ZXMoreContentViewModel.h"; sourceTree = "<group>"; };
+		3515438C1EE015D00048ACA5 /* ZXMoreContentViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZXMoreContentViewModel.m; path = "Class/公有类/ViewModel/ZXMoreContentViewModel.m"; sourceTree = "<group>"; };
+		3515438E1EE017C20048ACA5 /* ZXMoreCategoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZXMoreCategoryCell.h; path = "Class/公有类/View/ZXMoreCategoryCell.h"; sourceTree = "<group>"; };
+		3515438F1EE017C20048ACA5 /* ZXMoreCategoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZXMoreCategoryCell.m; path = "Class/公有类/View/ZXMoreCategoryCell.m"; sourceTree = "<group>"; };
+		351543911EE0197E0048ACA5 /* ZXMoreCategoryVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZXMoreCategoryVC.h; path = "Class/公有类/Controller/ZXMoreCategoryVC.h"; sourceTree = "<group>"; };
+		351543921EE0197E0048ACA5 /* ZXMoreCategoryVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZXMoreCategoryVC.m; path = "Class/公有类/Controller/ZXMoreCategoryVC.m"; sourceTree = "<group>"; };
+		351543941EE019DA0048ACA5 /* ZXMoreCategoryViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZXMoreCategoryViewModel.h; path = "Class/公有类/ViewModel/ZXMoreCategoryViewModel.h"; sourceTree = "<group>"; };
+		351543951EE019DA0048ACA5 /* ZXMoreCategoryViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZXMoreCategoryViewModel.m; path = "Class/公有类/ViewModel/ZXMoreCategoryViewModel.m"; sourceTree = "<group>"; };
+		353950131ED7F17D00146DD1 /* ZXBaseViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZXBaseViewModel.h; path = "Class/公有类/ViewModel/ZXBaseViewModel.h"; sourceTree = "<group>"; };
+		353950141ED7F17D00146DD1 /* ZXBaseViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZXBaseViewModel.m; path = "Class/公有类/ViewModel/ZXBaseViewModel.m"; sourceTree = "<group>"; };
+		353950191ED7F37000146DD1 /* ZXHomePageViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZXHomePageViewModel.h; path = "Class/发现/ViewModel/ZXHomePageViewModel.h"; sourceTree = "<group>"; };
+		3539501A1ED7F37000146DD1 /* ZXHomePageViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZXHomePageViewModel.m; path = "Class/发现/ViewModel/ZXHomePageViewModel.m"; sourceTree = "<group>"; };
+		3539501C1ED7F54E00146DD1 /* ZXBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZXBaseModel.h; path = "Class/公有类/Model/ZXBaseModel.h"; sourceTree = "<group>"; };
+		3539501D1ED7F54E00146DD1 /* ZXBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZXBaseModel.m; path = "Class/公有类/Model/ZXBaseModel.m"; sourceTree = "<group>"; };
+		3539501F1ED7F5AA00146DD1 /* ZXHomePageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZXHomePageModel.h; path = "Class/发现/Model/ZXHomePageModel.h"; sourceTree = "<group>"; };
+		353950201ED7F5AA00146DD1 /* ZXHomePageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZXHomePageModel.m; path = "Class/发现/Model/ZXHomePageModel.m"; sourceTree = "<group>"; };
+		353950221ED7FA1400146DD1 /* ZXBaseNetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZXBaseNetManager.h; path = "Class/公有类/NetManager/ZXBaseNetManager.h"; sourceTree = "<group>"; };
+		353950231ED7FA1400146DD1 /* ZXBaseNetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZXBaseNetManager.m; path = "Class/公有类/NetManager/ZXBaseNetManager.m"; sourceTree = "<group>"; };
+		353950251ED7FE0300146DD1 /* ZXHomePageNetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZXHomePageNetManager.h; path = "Class/发现/NetManager/ZXHomePageNetManager.h"; sourceTree = "<group>"; };
+		353950261ED7FE0300146DD1 /* ZXHomePageNetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZXHomePageNetManager.m; path = "Class/发现/NetManager/ZXHomePageNetManager.m"; sourceTree = "<group>"; };
+		353950281ED7FEBD00146DD1 /* ZXCategoryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZXCategoryModel.h; path = "Class/发现/Model/ZXCategoryModel.h"; sourceTree = "<group>"; };
+		353950291ED7FEBD00146DD1 /* ZXCategoryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZXCategoryModel.m; path = "Class/发现/Model/ZXCategoryModel.m"; sourceTree = "<group>"; };
+		3539502B1ED8134800146DD1 /* ZXAnchorModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZXAnchorModel.h; path = "Class/发现/Model/ZXAnchorModel.h"; sourceTree = "<group>"; };
+		3539502C1ED8134800146DD1 /* ZXAnchorModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZXAnchorModel.m; path = "Class/发现/Model/ZXAnchorModel.m"; sourceTree = "<group>"; };
+		3539502E1ED814AC00146DD1 /* ZXRankModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZXRankModel.h; path = "Class/发现/Model/ZXRankModel.h"; sourceTree = "<group>"; };
+		3539502F1ED814AC00146DD1 /* ZXRankModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZXRankModel.m; path = "Class/发现/Model/ZXRankModel.m"; sourceTree = "<group>"; };
+		353950311ED815A100146DD1 /* ZXLiveModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZXLiveModel.h; path = "Class/发现/Model/ZXLiveModel.h"; sourceTree = "<group>"; };
+		353950321ED815A100146DD1 /* ZXLiveModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZXLiveModel.m; path = "Class/发现/Model/ZXLiveModel.m"; sourceTree = "<group>"; };
+		3539503B1ED81D5D00146DD1 /* ZXFindPutCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZXFindPutCell.h; path = "Class/发现/View/ZXFindPutCell.h"; sourceTree = "<group>"; };
+		3539503C1ED81D5D00146DD1 /* ZXFindPutCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZXFindPutCell.m; path = "Class/发现/View/ZXFindPutCell.m"; sourceTree = "<group>"; };
+		3539503E1ED81D9200146DD1 /* ZXContentShowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZXContentShowView.h; path = "Class/发现/View/ZXContentShowView.h"; sourceTree = "<group>"; };
+		3539503F1ED81D9200146DD1 /* ZXContentShowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZXContentShowView.m; path = "Class/发现/View/ZXContentShowView.m"; sourceTree = "<group>"; };
+		353950411ED8293200146DD1 /* ZXDiscoveryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZXDiscoveryCell.h; path = "Class/发现/View/ZXDiscoveryCell.h"; sourceTree = "<group>"; };
+		353950421ED8293200146DD1 /* ZXDiscoveryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZXDiscoveryCell.m; path = "Class/发现/View/ZXDiscoveryCell.m"; sourceTree = "<group>"; };
+		353950441ED82B1800146DD1 /* ZXSpecialCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZXSpecialCell.h; path = "Class/发现/View/ZXSpecialCell.h"; sourceTree = "<group>"; };
+		353950451ED82B1800146DD1 /* ZXSpecialCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZXSpecialCell.m; path = "Class/发现/View/ZXSpecialCell.m"; sourceTree = "<group>"; };
+		353950471ED82D6000146DD1 /* ZXFocusImageScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZXFocusImageScrollView.h; path = "Class/公有类/View/ZXFocusImageScrollView.h"; sourceTree = "<group>"; };
+		353950481ED82D6000146DD1 /* ZXFocusImageScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZXFocusImageScrollView.m; path = "Class/公有类/View/ZXFocusImageScrollView.m"; sourceTree = "<group>"; };
+		3539504A1ED82E5F00146DD1 /* iCarousel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
+		3539504B1ED8330F00146DD1 /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
+		3539504D1ED849B500146DD1 /* ZXTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZXTitleView.h; path = "Class/公有类/View/ZXTitleView.h"; sourceTree = "<group>"; };
+		3539504E1ED849B500146DD1 /* ZXTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZXTitleView.m; path = "Class/公有类/View/ZXTitleView.m"; sourceTree = "<group>"; };
+		353950501ED84B6900146DD1 /* ZXMoreButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZXMoreButton.h; path = "Class/公有类/View/ZXMoreButton.h"; sourceTree = "<group>"; };
+		353950511ED84B6900146DD1 /* ZXMoreButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZXMoreButton.m; path = "Class/公有类/View/ZXMoreButton.m"; sourceTree = "<group>"; };
+		353950531ED84EFA00146DD1 /* ZXDestinationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZXDestinationVC.h; path = "Class/公有类/Controller/ZXDestinationVC.h"; sourceTree = "<group>"; };
+		353950541ED84EFA00146DD1 /* ZXDestinationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZXDestinationVC.m; path = "Class/公有类/Controller/ZXDestinationVC.m"; sourceTree = "<group>"; };
+		353950561ED84F3C00146DD1 /* ZXAlbumHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZXAlbumHeaderView.h; path = "Class/公有类/View/ZXAlbumHeaderView.h"; sourceTree = "<group>"; };
+		353950571ED84F3C00146DD1 /* ZXAlbumHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZXAlbumHeaderView.m; path = "Class/公有类/View/ZXAlbumHeaderView.m"; sourceTree = "<group>"; };
+		353950591ED84F6B00146DD1 /* ZXPicView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZXPicView.h; path = "Class/公有类/View/ZXPicView.h"; sourceTree = "<group>"; };
+		3539505A1ED84F6B00146DD1 /* ZXPicView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZXPicView.m; path = "Class/公有类/View/ZXPicView.m"; sourceTree = "<group>"; };
+		3539505C1ED84FC900146DD1 /* ZXIconNameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZXIconNameView.h; path = "Class/公有类/View/ZXIconNameView.h"; sourceTree = "<group>"; };
+		3539505D1ED84FC900146DD1 /* ZXIconNameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZXIconNameView.m; path = "Class/公有类/View/ZXIconNameView.m"; sourceTree = "<group>"; };
+		3539505F1ED8500F00146DD1 /* ZXDescView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZXDescView.h; path = "Class/公有类/View/ZXDescView.h"; sourceTree = "<group>"; };
+		353950601ED8500F00146DD1 /* ZXDescView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZXDescView.m; path = "Class/公有类/View/ZXDescView.m"; sourceTree = "<group>"; };
+		353950631ED8521B00146DD1 /* ZXTracksViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZXTracksViewModel.h; path = "Class/公有类/ViewModel/ZXTracksViewModel.h"; sourceTree = "<group>"; };
+		353950641ED8521B00146DD1 /* ZXTracksViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZXTracksViewModel.m; path = "Class/公有类/ViewModel/ZXTracksViewModel.m"; sourceTree = "<group>"; };
+		353950661ED8533F00146DD1 /* ZXDestinationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZXDestinationModel.h; path = "Class/公有类/Model/ZXDestinationModel.h"; sourceTree = "<group>"; };
+		353950671ED8533F00146DD1 /* ZXDestinationModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZXDestinationModel.m; path = "Class/公有类/Model/ZXDestinationModel.m"; sourceTree = "<group>"; };
+		353950691ED853CB00146DD1 /* ZXMoreCotentNetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZXMoreCotentNetManager.h; path = "Class/公有类/NetManager/ZXMoreCotentNetManager.h"; sourceTree = "<group>"; };
+		3539506A1ED853CB00146DD1 /* ZXMoreCotentNetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZXMoreCotentNetManager.m; path = "Class/公有类/NetManager/ZXMoreCotentNetManager.m"; sourceTree = "<group>"; };
+		3539506C1ED8546700146DD1 /* ZXContentsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZXContentsModel.h; path = "Class/公有类/Model/ZXContentsModel.h"; sourceTree = "<group>"; };
+		3539506D1ED8546700146DD1 /* ZXContentsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZXContentsModel.m; path = "Class/公有类/Model/ZXContentsModel.m"; sourceTree = "<group>"; };
+		3539506F1ED8551B00146DD1 /* ZXMenusModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZXMenusModel.h; path = "Class/公有类/Model/ZXMenusModel.h"; sourceTree = "<group>"; };
+		353950701ED8551B00146DD1 /* ZXMenusModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZXMenusModel.m; path = "Class/公有类/Model/ZXMenusModel.m"; sourceTree = "<group>"; };
+		353950721ED8558000146DD1 /* ZXContentCategoryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZXContentCategoryModel.h; path = "Class/公有类/Model/ZXContentCategoryModel.h"; sourceTree = "<group>"; };
+		353950731ED8558000146DD1 /* ZXContentCategoryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZXContentCategoryModel.m; path = "Class/公有类/Model/ZXContentCategoryModel.m"; sourceTree = "<group>"; };
+		3539507B1ED8575A00146DD1 /* ZXMusicDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZXMusicDetailCell.h; path = "Class/公有类/View/ZXMusicDetailCell.h"; sourceTree = "<group>"; };
+		3539507C1ED8575A00146DD1 /* ZXMusicDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZXMusicDetailCell.m; path = "Class/公有类/View/ZXMusicDetailCell.m"; sourceTree = "<group>"; };
 		355443911ED6F7E1003B43F1 /* 喜马拉雅FM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "喜马拉雅FM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		355443951ED6F7E1003B43F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		355443971ED6F7E1003B43F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +194,77 @@
 		355443A01ED6F7E1003B43F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		355443A31ED6F7E1003B43F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		355443A51ED6F7E1003B43F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		357B07131ED70C99001AE5B8 /* MBProgressHUD+ZX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MBProgressHUD+ZX.h"; path = "Utilities/Category/MBProgressHUD+ZX.h"; sourceTree = "<group>"; };
+		357B07141ED70C99001AE5B8 /* MBProgressHUD+ZX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "MBProgressHUD+ZX.m"; path = "Utilities/Category/MBProgressHUD+ZX.m"; sourceTree = "<group>"; };
+		357B07161ED70E94001AE5B8 /* ZXPlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZXPlayView.h; path = "Class/公有类/View/ZXPlayView.h"; sourceTree = "<group>"; };
+		357B07171ED70E94001AE5B8 /* ZXPlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZXPlayView.m; path = "Class/公有类/View/ZXPlayView.m"; sourceTree = "<group>"; };
+		357B07211ED722A3001AE5B8 /* ZXMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZXMeViewController.h; path = "Class/我/Controller/ZXMeViewController.h"; sourceTree = "<group>"; };
+		357B07221ED722A3001AE5B8 /* ZXMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZXMeViewController.m; path = "Class/我/Controller/ZXMeViewController.m"; sourceTree = "<group>"; };
+		357B07291ED7232C001AE5B8 /* ZXDownloadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZXDownloadViewController.h; path = "Class/下载听/Controller/ZXDownloadViewController.h"; sourceTree = "<group>"; };
+		357B072A1ED7232C001AE5B8 /* ZXDownloadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZXDownloadViewController.m; path = "Class/下载听/Controller/ZXDownloadViewController.m"; sourceTree = "<group>"; };
+		357B07321ED723B7001AE5B8 /* ZXFindViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZXFindViewController.h; path = "Class/发现/Controller/ZXFindViewController.h"; sourceTree = "<group>"; };
+		357B07331ED723B7001AE5B8 /* ZXFindViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZXFindViewController.m; path = "Class/发现/Controller/ZXFindViewController.m"; sourceTree = "<group>"; };
+		357B073D1ED72412001AE5B8 /* ZXSoundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZXSoundViewController.h; path = "Class/定制听/Controller/ZXSoundViewController.h"; sourceTree = "<group>"; };
+		357B073E1ED72412001AE5B8 /* ZXSoundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZXSoundViewController.m; path = "Class/定制听/Controller/ZXSoundViewController.m"; sourceTree = "<group>"; };
+		357B07401ED7282A001AE5B8 /* ZXAttentionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZXAttentionVC.h; path = "Class/定制听/Controller/ZXAttentionVC.h"; sourceTree = "<group>"; };
+		357B07411ED7282A001AE5B8 /* ZXAttentionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZXAttentionVC.m; path = "Class/定制听/Controller/ZXAttentionVC.m"; sourceTree = "<group>"; };
+		357B07431ED72863001AE5B8 /* ZXCollectVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZXCollectVC.h; path = "Class/定制听/Controller/ZXCollectVC.h"; sourceTree = "<group>"; };
+		357B07441ED72863001AE5B8 /* ZXCollectVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZXCollectVC.m; path = "Class/定制听/Controller/ZXCollectVC.m"; sourceTree = "<group>"; };
+		357B07461ED7289B001AE5B8 /* ZXHistoryVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZXHistoryVC.h; path = "Class/定制听/Controller/ZXHistoryVC.h"; sourceTree = "<group>"; };
+		357B07471ED7289B001AE5B8 /* ZXHistoryVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZXHistoryVC.m; path = "Class/定制听/Controller/ZXHistoryVC.m"; sourceTree = "<group>"; };
+		357B07491ED7398A001AE5B8 /* ZXHomePageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZXHomePageVC.h; path = "Class/发现/Controller/ZXHomePageVC.h"; sourceTree = "<group>"; };
+		357B074A1ED7398A001AE5B8 /* ZXHomePageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZXHomePageVC.m; path = "Class/发现/Controller/ZXHomePageVC.m"; sourceTree = "<group>"; };
+		357B074C1ED739CA001AE5B8 /* ZXCategoryVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZXCategoryVC.h; path = "Class/发现/Controller/ZXCategoryVC.h"; sourceTree = "<group>"; };
+		357B074D1ED739CA001AE5B8 /* ZXCategoryVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZXCategoryVC.m; path = "Class/发现/Controller/ZXCategoryVC.m"; sourceTree = "<group>"; };
+		357B074F1ED73A09001AE5B8 /* ZXLiveVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZXLiveVC.h; path = "Class/发现/Controller/ZXLiveVC.h"; sourceTree = "<group>"; };
+		357B07501ED73A09001AE5B8 /* ZXLiveVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZXLiveVC.m; path = "Class/发现/Controller/ZXLiveVC.m"; sourceTree = "<group>"; };
+		357B07521ED73A29001AE5B8 /* ZXRankingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZXRankingVC.h; path = "Class/发现/Controller/ZXRankingVC.h"; sourceTree = "<group>"; };
+		357B07531ED73A29001AE5B8 /* ZXRankingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZXRankingVC.m; path = "Class/发现/Controller/ZXRankingVC.m"; sourceTree = "<group>"; };
+		357B07551ED73A4A001AE5B8 /* ZXAnchorVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZXAnchorVC.h; path = "Class/发现/Controller/ZXAnchorVC.h"; sourceTree = "<group>"; };
+		357B07561ED73A4A001AE5B8 /* ZXAnchorVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZXAnchorVC.m; path = "Class/发现/Controller/ZXAnchorVC.m"; sourceTree = "<group>"; };
+		357B07581ED74068001AE5B8 /* MeSetting.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = MeSetting.storyboard; path = "Class/我/Controller/MeSetting.storyboard"; sourceTree = "<group>"; };
+		35BC27EB1ED701C900635903 /* ZXTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZXTabBarController.h; path = "Class/公有类/Controller/ZXTabBarController.h"; sourceTree = "<group>"; };
+		35BC27EC1ED701C900635903 /* ZXTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZXTabBarController.m; path = "Class/公有类/Controller/ZXTabBarController.m"; sourceTree = "<group>"; };
+		35BC27F31ED7025B00635903 /* ZXNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZXNavigationController.h; path = "Class/公有类/Controller/ZXNavigationController.h"; sourceTree = "<group>"; };
+		35BC27F41ED7025B00635903 /* ZXNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZXNavigationController.m; path = "Class/公有类/Controller/ZXNavigationController.m"; sourceTree = "<group>"; };
+		35BC27F61ED7049300635903 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = Resource/PrefixHeader.pch; sourceTree = "<group>"; };
+		35BC27F71ED7062100635903 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = Define/Constants.h; sourceTree = "<group>"; };
+		35CF74C71ED745DD00DBC975 /* ZXAlbumVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZXAlbumVC.h; path = "Class/下载听/Controller/ZXAlbumVC.h"; sourceTree = "<group>"; };
+		35CF74C81ED745DD00DBC975 /* ZXAlbumVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZXAlbumVC.m; path = "Class/下载听/Controller/ZXAlbumVC.m"; sourceTree = "<group>"; };
+		35CF74CA1ED7460C00DBC975 /* ZXSoundVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZXSoundVC.h; path = "Class/下载听/Controller/ZXSoundVC.h"; sourceTree = "<group>"; };
+		35CF74CB1ED7460C00DBC975 /* ZXSoundVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZXSoundVC.m; path = "Class/下载听/Controller/ZXSoundVC.m"; sourceTree = "<group>"; };
+		35CF74CD1ED7462400DBC975 /* ZXDownloadingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZXDownloadingVC.h; path = "Class/下载听/Controller/ZXDownloadingVC.h"; sourceTree = "<group>"; };
+		35CF74CE1ED7462400DBC975 /* ZXDownloadingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZXDownloadingVC.m; path = "Class/下载听/Controller/ZXDownloadingVC.m"; sourceTree = "<group>"; };
+		35E4F3D71EE39D01008AF42E /* ZXCategorySpecialCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZXCategorySpecialCell.h; path = "Class/发现/View/Category/ZXCategorySpecialCell.h"; sourceTree = "<group>"; };
+		35E4F3D81EE39D01008AF42E /* ZXCategorySpecialCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZXCategorySpecialCell.m; path = "Class/发现/View/Category/ZXCategorySpecialCell.m"; sourceTree = "<group>"; };
+		35E4F3DA1EE3A037008AF42E /* ZXCategoryButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZXCategoryButton.h; path = "Class/发现/View/Category/ZXCategoryButton.h"; sourceTree = "<group>"; };
+		35E4F3DB1EE3A037008AF42E /* ZXCategoryButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZXCategoryButton.m; path = "Class/发现/View/Category/ZXCategoryButton.m"; sourceTree = "<group>"; };
+		35E4F3DD1EE3A12A008AF42E /* ZXCategoryCommonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZXCategoryCommonCell.h; path = "Class/发现/View/Category/ZXCategoryCommonCell.h"; sourceTree = "<group>"; };
+		35E4F3DE1EE3A12A008AF42E /* ZXCategoryCommonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZXCategoryCommonCell.m; path = "Class/发现/View/Category/ZXCategoryCommonCell.m"; sourceTree = "<group>"; };
+		35E4F3E01EE3A283008AF42E /* ZXCategoryViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZXCategoryViewModel.h; path = "Class/发现/ViewModel/ZXCategoryViewModel.h"; sourceTree = "<group>"; };
+		35E4F3E11EE3A283008AF42E /* ZXCategoryViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZXCategoryViewModel.m; path = "Class/发现/ViewModel/ZXCategoryViewModel.m"; sourceTree = "<group>"; };
+		35E4F3E31EE3AC62008AF42E /* ZXLiveViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZXLiveViewModel.h; path = "Class/发现/ViewModel/ZXLiveViewModel.h"; sourceTree = "<group>"; };
+		35E4F3E41EE3AC62008AF42E /* ZXLiveViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZXLiveViewModel.m; path = "Class/发现/ViewModel/ZXLiveViewModel.m"; sourceTree = "<group>"; };
+		35E4F3E61EE3AE6F008AF42E /* ZXLiveRadioCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZXLiveRadioCell.h; path = "Class/发现/View/Live/ZXLiveRadioCell.h"; sourceTree = "<group>"; };
+		35E4F3E71EE3AE6F008AF42E /* ZXLiveRadioCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZXLiveRadioCell.m; path = "Class/发现/View/Live/ZXLiveRadioCell.m"; sourceTree = "<group>"; };
+		35E4F3E91EE3B006008AF42E /* ZXLiveRecommandCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZXLiveRecommandCell.h; path = "Class/发现/View/Live/ZXLiveRecommandCell.h"; sourceTree = "<group>"; };
+		35E4F3EA1EE3B006008AF42E /* ZXLiveRecommandCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZXLiveRecommandCell.m; path = "Class/发现/View/Live/ZXLiveRecommandCell.m"; sourceTree = "<group>"; };
+		35E4F3EC1EE3B078008AF42E /* ZXLiveTopCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZXLiveTopCell.h; path = "Class/发现/View/Live/ZXLiveTopCell.h"; sourceTree = "<group>"; };
+		35E4F3ED1EE3B078008AF42E /* ZXLiveTopCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZXLiveTopCell.m; path = "Class/发现/View/Live/ZXLiveTopCell.m"; sourceTree = "<group>"; };
+		35E4F3EF1EE3B5FB008AF42E /* ZXRankViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZXRankViewModel.h; path = "Class/发现/ViewModel/ZXRankViewModel.h"; sourceTree = "<group>"; };
+		35E4F3F01EE3B5FB008AF42E /* ZXRankViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZXRankViewModel.m; path = "Class/发现/ViewModel/ZXRankViewModel.m"; sourceTree = "<group>"; };
+		35E4F3F21EE3B68F008AF42E /* ZXRankCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZXRankCell.h; path = "Class/发现/View/Toplist/ZXRankCell.h"; sourceTree = "<group>"; };
+		35E4F3F31EE3B68F008AF42E /* ZXRankCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZXRankCell.m; path = "Class/发现/View/Toplist/ZXRankCell.m"; sourceTree = "<group>"; };
+		35E4F3F51EE3BB5E008AF42E /* ZXAnchorViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZXAnchorViewModel.h; path = "Class/发现/ViewModel/ZXAnchorViewModel.h"; sourceTree = "<group>"; };
+		35E4F3F61EE3BB5E008AF42E /* ZXAnchorViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZXAnchorViewModel.m; path = "Class/发现/ViewModel/ZXAnchorViewModel.m"; sourceTree = "<group>"; };
+		35E4F3F81EE3BBBD008AF42E /* ZXAnchorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZXAnchorCell.h; path = "Class/发现/View/Anchor/ZXAnchorCell.h"; sourceTree = "<group>"; };
+		35E4F3F91EE3BBBD008AF42E /* ZXAnchorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZXAnchorCell.m; path = "Class/发现/View/Anchor/ZXAnchorCell.m"; sourceTree = "<group>"; };
+		35E4F3FB1EE3BBE4008AF42E /* ZXAnchorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZXAnchorView.h; path = "Class/发现/View/Anchor/ZXAnchorView.h"; sourceTree = "<group>"; };
+		35E4F3FC1EE3BBE4008AF42E /* ZXAnchorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZXAnchorView.m; path = "Class/发现/View/Anchor/ZXAnchorView.m"; sourceTree = "<group>"; };
+		35E4F3FE1EE3C225008AF42E /* ZXSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZXSettingViewController.h; path = "Class/我/Controller/ZXSettingViewController.h"; sourceTree = "<group>"; };
+		35E4F3FF1EE3C225008AF42E /* ZXSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZXSettingViewController.m; path = "Class/我/Controller/ZXSettingViewController.m"; sourceTree = "<group>"; };
+		8809CF3D951D5497EB8DDB7F /* Pods-喜马拉雅FM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-喜马拉雅FM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-喜马拉雅FM/Pods-喜马拉雅FM.debug.xcconfig"; sourceTree = "<group>"; };
+		99A89BC2937102009B2232C6 /* Pods-喜马拉雅FM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-喜马拉雅FM.release.xcconfig"; path = "Pods/Target Support Files/Pods-喜马拉雅FM/Pods-喜马拉雅FM.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +272,118 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D35F85C6BE2AF90C22899B52 /* libPods-喜马拉雅FM.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C4724128D01F829E9A2D65A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				23D5EE043815493B6DE1CCDE /* libPods-喜马拉雅FM.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		351543841EE015090048ACA5 /* 热门更多 */ = {
+			isa = PBXGroup;
+			children = (
+				351543851EE0152A0048ACA5 /* ZXMoreViewController.h */,
+				351543861EE0152A0048ACA5 /* ZXMoreViewController.m */,
+				351543881EE0159B0048ACA5 /* ZXMoreRecommendController.h */,
+				351543891EE0159B0048ACA5 /* ZXMoreRecommendController.m */,
+				351543811EE014CD0048ACA5 /* ZXJumpVC.h */,
+				351543821EE014CD0048ACA5 /* ZXJumpVC.m */,
+				351543911EE0197E0048ACA5 /* ZXMoreCategoryVC.h */,
+				351543921EE0197E0048ACA5 /* ZXMoreCategoryVC.m */,
+			);
+			name = "热门更多";
+			sourceTree = "<group>";
+		};
+		353950341ED81CF700146DD1 /* 推荐 */ = {
+			isa = PBXGroup;
+			children = (
+				3539503B1ED81D5D00146DD1 /* ZXFindPutCell.h */,
+				3539503C1ED81D5D00146DD1 /* ZXFindPutCell.m */,
+				353950411ED8293200146DD1 /* ZXDiscoveryCell.h */,
+				353950421ED8293200146DD1 /* ZXDiscoveryCell.m */,
+				353950441ED82B1800146DD1 /* ZXSpecialCell.h */,
+				353950451ED82B1800146DD1 /* ZXSpecialCell.m */,
+				3539503E1ED81D9200146DD1 /* ZXContentShowView.h */,
+				3539503F1ED81D9200146DD1 /* ZXContentShowView.m */,
+			);
+			name = "推荐";
+			sourceTree = "<group>";
+		};
+		353950351ED81CFD00146DD1 /* 分类 */ = {
+			isa = PBXGroup;
+			children = (
+				35E4F3D71EE39D01008AF42E /* ZXCategorySpecialCell.h */,
+				35E4F3D81EE39D01008AF42E /* ZXCategorySpecialCell.m */,
+				35E4F3DD1EE3A12A008AF42E /* ZXCategoryCommonCell.h */,
+				35E4F3DE1EE3A12A008AF42E /* ZXCategoryCommonCell.m */,
+				35E4F3DA1EE3A037008AF42E /* ZXCategoryButton.h */,
+				35E4F3DB1EE3A037008AF42E /* ZXCategoryButton.m */,
+			);
+			name = "分类";
+			sourceTree = "<group>";
+		};
+		353950361ED81D0400146DD1 /* 直播 */ = {
+			isa = PBXGroup;
+			children = (
+				35E4F3E61EE3AE6F008AF42E /* ZXLiveRadioCell.h */,
+				35E4F3E71EE3AE6F008AF42E /* ZXLiveRadioCell.m */,
+				35E4F3E91EE3B006008AF42E /* ZXLiveRecommandCell.h */,
+				35E4F3EA1EE3B006008AF42E /* ZXLiveRecommandCell.m */,
+				35E4F3EC1EE3B078008AF42E /* ZXLiveTopCell.h */,
+				35E4F3ED1EE3B078008AF42E /* ZXLiveTopCell.m */,
+			);
+			name = "直播";
+			sourceTree = "<group>";
+		};
+		353950381ED81D3000146DD1 /* 榜单 */ = {
+			isa = PBXGroup;
+			children = (
+				35E4F3F21EE3B68F008AF42E /* ZXRankCell.h */,
+				35E4F3F31EE3B68F008AF42E /* ZXRankCell.m */,
+			);
+			name = "榜单";
+			sourceTree = "<group>";
+		};
+		353950391ED81D3800146DD1 /* 主播 */ = {
+			isa = PBXGroup;
+			children = (
+				35E4F3F81EE3BBBD008AF42E /* ZXAnchorCell.h */,
+				35E4F3F91EE3BBBD008AF42E /* ZXAnchorCell.m */,
+				35E4F3FB1EE3BBE4008AF42E /* ZXAnchorView.h */,
+				35E4F3FC1EE3BBE4008AF42E /* ZXAnchorView.m */,
+			);
+			name = "主播";
+			sourceTree = "<group>";
+		};
+		353950621ED851B100146DD1 /* AlbumHeader */ = {
+			isa = PBXGroup;
+			children = (
+				353950591ED84F6B00146DD1 /* ZXPicView.h */,
+				3539505A1ED84F6B00146DD1 /* ZXPicView.m */,
+				3539505C1ED84FC900146DD1 /* ZXIconNameView.h */,
+				3539505D1ED84FC900146DD1 /* ZXIconNameView.m */,
+				3539505F1ED8500F00146DD1 /* ZXDescView.h */,
+				353950601ED8500F00146DD1 /* ZXDescView.m */,
+			);
+			name = AlbumHeader;
+			sourceTree = "<group>";
+		};
 		355443881ED6F7E0003B43F1 = {
 			isa = PBXGroup;
 			children = (
+				35BFC5F41ED6FC3E00561530 /* imageset */,
 				355443931ED6F7E1003B43F1 /* 喜马拉雅FM */,
 				355443921ED6F7E1003B43F1 /* Products */,
+				EADB6F4C230C98C4F81610E5 /* Pods */,
+				0C4724128D01F829E9A2D65A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +402,11 @@
 				355443981ED6F7E1003B43F1 /* AppDelegate.m */,
 				3554439A1ED6F7E1003B43F1 /* ViewController.h */,
 				3554439B1ED6F7E1003B43F1 /* ViewController.m */,
+				35BC27E91ED7017700635903 /* Vendor */,
+				35BC27E81ED7017000635903 /* Resource */,
+				35BC27E71ED7016700635903 /* Define */,
+				35BC27E51ED7015000635903 /* Utilitities */,
+				35BC27DE1ED6FF8500635903 /* Class */,
 				3554439D1ED6F7E1003B43F1 /* Main.storyboard */,
 				355443A01ED6F7E1003B43F1 /* Assets.xcassets */,
 				355443A21ED6F7E1003B43F1 /* LaunchScreen.storyboard */,
@@ -79,6 +424,445 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		357B071C1ED7225E001AE5B8 /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				357B07211ED722A3001AE5B8 /* ZXMeViewController.h */,
+				357B07221ED722A3001AE5B8 /* ZXMeViewController.m */,
+				35E4F3FE1EE3C225008AF42E /* ZXSettingViewController.h */,
+				35E4F3FF1EE3C225008AF42E /* ZXSettingViewController.m */,
+				357B07581ED74068001AE5B8 /* MeSetting.storyboard */,
+			);
+			name = Control;
+			sourceTree = "<group>";
+		};
+		357B071D1ED72267001AE5B8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		357B071E1ED7226E001AE5B8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		357B071F1ED7227A001AE5B8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		357B07201ED72282001AE5B8 /* NetManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = NetManager;
+			sourceTree = "<group>";
+		};
+		357B07241ED722D8001AE5B8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		357B07251ED722DF001AE5B8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		357B07261ED722E3001AE5B8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		357B07271ED722E8001AE5B8 /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				357B07291ED7232C001AE5B8 /* ZXDownloadViewController.h */,
+				357B072A1ED7232C001AE5B8 /* ZXDownloadViewController.m */,
+				35CF74C71ED745DD00DBC975 /* ZXAlbumVC.h */,
+				35CF74C81ED745DD00DBC975 /* ZXAlbumVC.m */,
+				35CF74CA1ED7460C00DBC975 /* ZXSoundVC.h */,
+				35CF74CB1ED7460C00DBC975 /* ZXSoundVC.m */,
+				35CF74CD1ED7462400DBC975 /* ZXDownloadingVC.h */,
+				35CF74CE1ED7462400DBC975 /* ZXDownloadingVC.m */,
+			);
+			name = Control;
+			sourceTree = "<group>";
+		};
+		357B07281ED722EE001AE5B8 /* NetManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = NetManager;
+			sourceTree = "<group>";
+		};
+		357B072C1ED7235B001AE5B8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3539501F1ED7F5AA00146DD1 /* ZXHomePageModel.h */,
+				353950201ED7F5AA00146DD1 /* ZXHomePageModel.m */,
+				353950281ED7FEBD00146DD1 /* ZXCategoryModel.h */,
+				353950291ED7FEBD00146DD1 /* ZXCategoryModel.m */,
+				3539502B1ED8134800146DD1 /* ZXAnchorModel.h */,
+				3539502C1ED8134800146DD1 /* ZXAnchorModel.m */,
+				3539502E1ED814AC00146DD1 /* ZXRankModel.h */,
+				3539502F1ED814AC00146DD1 /* ZXRankModel.m */,
+				353950311ED815A100146DD1 /* ZXLiveModel.h */,
+				353950321ED815A100146DD1 /* ZXLiveModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		357B072D1ED72361001AE5B8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				353950391ED81D3800146DD1 /* 主播 */,
+				353950381ED81D3000146DD1 /* 榜单 */,
+				353950361ED81D0400146DD1 /* 直播 */,
+				353950351ED81CFD00146DD1 /* 分类 */,
+				353950341ED81CF700146DD1 /* 推荐 */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		357B072E1ED72364001AE5B8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				353950191ED7F37000146DD1 /* ZXHomePageViewModel.h */,
+				3539501A1ED7F37000146DD1 /* ZXHomePageViewModel.m */,
+				35E4F3E01EE3A283008AF42E /* ZXCategoryViewModel.h */,
+				35E4F3E11EE3A283008AF42E /* ZXCategoryViewModel.m */,
+				35E4F3E31EE3AC62008AF42E /* ZXLiveViewModel.h */,
+				35E4F3E41EE3AC62008AF42E /* ZXLiveViewModel.m */,
+				35E4F3EF1EE3B5FB008AF42E /* ZXRankViewModel.h */,
+				35E4F3F01EE3B5FB008AF42E /* ZXRankViewModel.m */,
+				35E4F3F51EE3BB5E008AF42E /* ZXAnchorViewModel.h */,
+				35E4F3F61EE3BB5E008AF42E /* ZXAnchorViewModel.m */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		357B072F1ED72375001AE5B8 /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				357B07321ED723B7001AE5B8 /* ZXFindViewController.h */,
+				357B07331ED723B7001AE5B8 /* ZXFindViewController.m */,
+				357B07491ED7398A001AE5B8 /* ZXHomePageVC.h */,
+				357B074A1ED7398A001AE5B8 /* ZXHomePageVC.m */,
+				357B074C1ED739CA001AE5B8 /* ZXCategoryVC.h */,
+				357B074D1ED739CA001AE5B8 /* ZXCategoryVC.m */,
+				357B074F1ED73A09001AE5B8 /* ZXLiveVC.h */,
+				357B07501ED73A09001AE5B8 /* ZXLiveVC.m */,
+				357B07521ED73A29001AE5B8 /* ZXRankingVC.h */,
+				357B07531ED73A29001AE5B8 /* ZXRankingVC.m */,
+				357B07551ED73A4A001AE5B8 /* ZXAnchorVC.h */,
+				357B07561ED73A4A001AE5B8 /* ZXAnchorVC.m */,
+			);
+			name = Control;
+			sourceTree = "<group>";
+		};
+		357B07301ED7237A001AE5B8 /* NetManager */ = {
+			isa = PBXGroup;
+			children = (
+				353950251ED7FE0300146DD1 /* ZXHomePageNetManager.h */,
+				353950261ED7FE0300146DD1 /* ZXHomePageNetManager.m */,
+			);
+			name = NetManager;
+			sourceTree = "<group>";
+		};
+		357B07351ED723CB001AE5B8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		357B07361ED723CF001AE5B8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		357B07371ED723D2001AE5B8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		357B07381ED723D7001AE5B8 /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				357B073D1ED72412001AE5B8 /* ZXSoundViewController.h */,
+				357B073E1ED72412001AE5B8 /* ZXSoundViewController.m */,
+				357B07401ED7282A001AE5B8 /* ZXAttentionVC.h */,
+				357B07411ED7282A001AE5B8 /* ZXAttentionVC.m */,
+				357B07431ED72863001AE5B8 /* ZXCollectVC.h */,
+				357B07441ED72863001AE5B8 /* ZXCollectVC.m */,
+				357B07461ED7289B001AE5B8 /* ZXHistoryVC.h */,
+				357B07471ED7289B001AE5B8 /* ZXHistoryVC.m */,
+			);
+			name = Control;
+			sourceTree = "<group>";
+		};
+		357B07391ED723DC001AE5B8 /* NetManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = NetManager;
+			sourceTree = "<group>";
+		};
+		35BC27DE1ED6FF8500635903 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				35BC27E41ED7014400635903 /* 公有类 */,
+				35BC27E31ED7013E00635903 /* 下载听 */,
+				35BC27E21ED7013900635903 /* 发现 */,
+				35BC27E11ED7013300635903 /* 定制听 */,
+				35BC27E01ED7012E00635903 /* 我 */,
+				35BC27DF1ED7012300635903 /* 播放 */,
+			);
+			name = Class;
+			sourceTree = "<group>";
+		};
+		35BC27DF1ED7012300635903 /* 播放 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "播放";
+			sourceTree = "<group>";
+		};
+		35BC27E01ED7012E00635903 /* 我 */ = {
+			isa = PBXGroup;
+			children = (
+				357B07201ED72282001AE5B8 /* NetManager */,
+				357B071F1ED7227A001AE5B8 /* ViewModel */,
+				357B071E1ED7226E001AE5B8 /* View */,
+				357B071D1ED72267001AE5B8 /* Model */,
+				357B071C1ED7225E001AE5B8 /* Control */,
+			);
+			name = "我";
+			sourceTree = "<group>";
+		};
+		35BC27E11ED7013300635903 /* 定制听 */ = {
+			isa = PBXGroup;
+			children = (
+				357B07391ED723DC001AE5B8 /* NetManager */,
+				357B07381ED723D7001AE5B8 /* Control */,
+				357B07371ED723D2001AE5B8 /* ViewModel */,
+				357B07361ED723CF001AE5B8 /* View */,
+				357B07351ED723CB001AE5B8 /* Model */,
+			);
+			name = "定制听";
+			sourceTree = "<group>";
+		};
+		35BC27E21ED7013900635903 /* 发现 */ = {
+			isa = PBXGroup;
+			children = (
+				357B072D1ED72361001AE5B8 /* View */,
+				357B07301ED7237A001AE5B8 /* NetManager */,
+				357B072F1ED72375001AE5B8 /* Control */,
+				357B072E1ED72364001AE5B8 /* ViewModel */,
+				357B072C1ED7235B001AE5B8 /* Model */,
+			);
+			name = "发现";
+			sourceTree = "<group>";
+		};
+		35BC27E31ED7013E00635903 /* 下载听 */ = {
+			isa = PBXGroup;
+			children = (
+				357B07281ED722EE001AE5B8 /* NetManager */,
+				357B07271ED722E8001AE5B8 /* Control */,
+				357B07261ED722E3001AE5B8 /* ViewModel */,
+				357B07251ED722DF001AE5B8 /* View */,
+				357B07241ED722D8001AE5B8 /* Model */,
+			);
+			name = "下载听";
+			sourceTree = "<group>";
+		};
+		35BC27E41ED7014400635903 /* 公有类 */ = {
+			isa = PBXGroup;
+			children = (
+				35BC27F21ED7021E00635903 /* NetManager */,
+				35BC27F11ED7021100635903 /* Model */,
+				35BC27F01ED701FB00635903 /* ViewModel */,
+				35BC27EF1ED701F600635903 /* View */,
+				35BC27EE1ED701EA00635903 /* Controller */,
+			);
+			name = "公有类";
+			sourceTree = "<group>";
+		};
+		35BC27E51ED7015000635903 /* Utilitities */ = {
+			isa = PBXGroup;
+			children = (
+				35BC27E61ED7015E00635903 /* Category */,
+			);
+			name = Utilitities;
+			sourceTree = "<group>";
+		};
+		35BC27E61ED7015E00635903 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				357B07131ED70C99001AE5B8 /* MBProgressHUD+ZX.h */,
+				357B07141ED70C99001AE5B8 /* MBProgressHUD+ZX.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		35BC27E71ED7016700635903 /* Define */ = {
+			isa = PBXGroup;
+			children = (
+				35BC27F71ED7062100635903 /* Constants.h */,
+			);
+			name = Define;
+			sourceTree = "<group>";
+		};
+		35BC27E81ED7017000635903 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				35BC27F61ED7049300635903 /* PrefixHeader.pch */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		35BC27E91ED7017700635903 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				35BC27EA1ED7017D00635903 /* iCarousel */,
+			);
+			name = Vendor;
+			sourceTree = "<group>";
+		};
+		35BC27EA1ED7017D00635903 /* iCarousel */ = {
+			isa = PBXGroup;
+			children = (
+				3539504A1ED82E5F00146DD1 /* iCarousel.h */,
+				3539504B1ED8330F00146DD1 /* iCarousel.m */,
+			);
+			name = iCarousel;
+			sourceTree = "<group>";
+		};
+		35BC27EE1ED701EA00635903 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				351543841EE015090048ACA5 /* 热门更多 */,
+				35BC27EB1ED701C900635903 /* ZXTabBarController.h */,
+				35BC27EC1ED701C900635903 /* ZXTabBarController.m */,
+				35BC27F31ED7025B00635903 /* ZXNavigationController.h */,
+				35BC27F41ED7025B00635903 /* ZXNavigationController.m */,
+				353950531ED84EFA00146DD1 /* ZXDestinationVC.h */,
+				353950541ED84EFA00146DD1 /* ZXDestinationVC.m */,
+				3515436C1EE003820048ACA5 /* ZXEditorMoreVC.h */,
+				3515436D1EE003820048ACA5 /* ZXEditorMoreVC.m */,
+				351543781EE0101D0048ACA5 /* ZXSpecialMoreVC.h */,
+				351543791EE0101D0048ACA5 /* ZXSpecialMoreVC.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		35BC27EF1ED701F600635903 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				353950621ED851B100146DD1 /* AlbumHeader */,
+				357B07161ED70E94001AE5B8 /* ZXPlayView.h */,
+				357B07171ED70E94001AE5B8 /* ZXPlayView.m */,
+				353950471ED82D6000146DD1 /* ZXFocusImageScrollView.h */,
+				353950481ED82D6000146DD1 /* ZXFocusImageScrollView.m */,
+				3539504D1ED849B500146DD1 /* ZXTitleView.h */,
+				3539504E1ED849B500146DD1 /* ZXTitleView.m */,
+				353950501ED84B6900146DD1 /* ZXMoreButton.h */,
+				353950511ED84B6900146DD1 /* ZXMoreButton.m */,
+				353950561ED84F3C00146DD1 /* ZXAlbumHeaderView.h */,
+				353950571ED84F3C00146DD1 /* ZXAlbumHeaderView.m */,
+				3539507B1ED8575A00146DD1 /* ZXMusicDetailCell.h */,
+				3539507C1ED8575A00146DD1 /* ZXMusicDetailCell.m */,
+				351543751EE006E10048ACA5 /* ZXEditorCell.h */,
+				351543761EE006E10048ACA5 /* ZXEditorCell.m */,
+				3515438E1EE017C20048ACA5 /* ZXMoreCategoryCell.h */,
+				3515438F1EE017C20048ACA5 /* ZXMoreCategoryCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		35BC27F01ED701FB00635903 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				353950131ED7F17D00146DD1 /* ZXBaseViewModel.h */,
+				353950141ED7F17D00146DD1 /* ZXBaseViewModel.m */,
+				353950631ED8521B00146DD1 /* ZXTracksViewModel.h */,
+				353950641ED8521B00146DD1 /* ZXTracksViewModel.m */,
+				3515436F1EE003C70048ACA5 /* ZXEditorMoreViewModel.h */,
+				351543701EE003C70048ACA5 /* ZXEditorMoreViewModel.m */,
+				3515437B1EE010770048ACA5 /* ZXSpecialMoreViewMoel.h */,
+				3515437C1EE010770048ACA5 /* ZXSpecialMoreViewMoel.m */,
+				3515438B1EE015D00048ACA5 /* ZXMoreContentViewModel.h */,
+				3515438C1EE015D00048ACA5 /* ZXMoreContentViewModel.m */,
+				351543941EE019DA0048ACA5 /* ZXMoreCategoryViewModel.h */,
+				351543951EE019DA0048ACA5 /* ZXMoreCategoryViewModel.m */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		35BC27F11ED7021100635903 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3539501C1ED7F54E00146DD1 /* ZXBaseModel.h */,
+				3539501D1ED7F54E00146DD1 /* ZXBaseModel.m */,
+				353950661ED8533F00146DD1 /* ZXDestinationModel.h */,
+				353950671ED8533F00146DD1 /* ZXDestinationModel.m */,
+				3539506C1ED8546700146DD1 /* ZXContentsModel.h */,
+				3539506D1ED8546700146DD1 /* ZXContentsModel.m */,
+				3539506F1ED8551B00146DD1 /* ZXMenusModel.h */,
+				353950701ED8551B00146DD1 /* ZXMenusModel.m */,
+				353950721ED8558000146DD1 /* ZXContentCategoryModel.h */,
+				353950731ED8558000146DD1 /* ZXContentCategoryModel.m */,
+				351543721EE0048B0048ACA5 /* ZXEditorModel.h */,
+				351543731EE0048B0048ACA5 /* ZXEditorModel.m */,
+				3515437E1EE0125E0048ACA5 /* ZXSpecialModel.h */,
+				3515437F1EE0125E0048ACA5 /* ZXSpecialModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		35BC27F21ED7021E00635903 /* NetManager */ = {
+			isa = PBXGroup;
+			children = (
+				353950221ED7FA1400146DD1 /* ZXBaseNetManager.h */,
+				353950231ED7FA1400146DD1 /* ZXBaseNetManager.m */,
+				353950691ED853CB00146DD1 /* ZXMoreCotentNetManager.h */,
+				3539506A1ED853CB00146DD1 /* ZXMoreCotentNetManager.m */,
+			);
+			name = NetManager;
+			sourceTree = "<group>";
+		};
+		35BFC5F41ED6FC3E00561530 /* imageset */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = imageset;
+			sourceTree = "<group>";
+		};
+		EADB6F4C230C98C4F81610E5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8809CF3D951D5497EB8DDB7F /* Pods-喜马拉雅FM.debug.xcconfig */,
+				99A89BC2937102009B2232C6 /* Pods-喜马拉雅FM.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +870,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 355443A81ED6F7E1003B43F1 /* Build configuration list for PBXNativeTarget "喜马拉雅FM" */;
 			buildPhases = (
+				F4D4488EE58097D4BF1DCDA0 /* [CP] Check Pods Manifest.lock */,
 				3554438D1ED6F7E1003B43F1 /* Sources */,
 				3554438E1ED6F7E1003B43F1 /* Frameworks */,
 				3554438F1ED6F7E1003B43F1 /* Resources */,
+				9AFD716221AF31F684CEA1DA /* [CP] Embed Pods Frameworks */,
+				7EE13489115BC8AFC0E5952A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -105,6 +892,7 @@
 		355443891ED6F7E0003B43F1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = ZX;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = habav;
 				TargetAttributes = {
@@ -139,19 +927,145 @@
 				355443A41ED6F7E1003B43F1 /* LaunchScreen.storyboard in Resources */,
 				355443A11ED6F7E1003B43F1 /* Assets.xcassets in Resources */,
 				3554439F1ED6F7E1003B43F1 /* Main.storyboard in Resources */,
+				357B07591ED74068001AE5B8 /* MeSetting.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7EE13489115BC8AFC0E5952A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-喜马拉雅FM/Pods-喜马拉雅FM-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9AFD716221AF31F684CEA1DA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-喜马拉雅FM/Pods-喜马拉雅FM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4D4488EE58097D4BF1DCDA0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3554438D1ED6F7E1003B43F1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				351543831EE014CD0048ACA5 /* ZXJumpVC.m in Sources */,
+				351543961EE019DA0048ACA5 /* ZXMoreCategoryViewModel.m in Sources */,
+				353950551ED84EFA00146DD1 /* ZXDestinationVC.m in Sources */,
+				357B072B1ED7232C001AE5B8 /* ZXDownloadViewController.m in Sources */,
+				353950741ED8558000146DD1 /* ZXContentCategoryModel.m in Sources */,
+				35E4F3EB1EE3B006008AF42E /* ZXLiveRecommandCell.m in Sources */,
+				357B07341ED723B7001AE5B8 /* ZXFindViewController.m in Sources */,
+				353950581ED84F3C00146DD1 /* ZXAlbumHeaderView.m in Sources */,
+				357B074E1ED739CA001AE5B8 /* ZXCategoryVC.m in Sources */,
+				353950431ED8293200146DD1 /* ZXDiscoveryCell.m in Sources */,
+				353950681ED8533F00146DD1 /* ZXDestinationModel.m in Sources */,
 				3554439C1ED6F7E1003B43F1 /* ViewController.m in Sources */,
+				3539502D1ED8134800146DD1 /* ZXAnchorModel.m in Sources */,
+				3515436E1EE003820048ACA5 /* ZXEditorMoreVC.m in Sources */,
+				3515437D1EE010770048ACA5 /* ZXSpecialMoreViewMoel.m in Sources */,
+				3539501B1ED7F37000146DD1 /* ZXHomePageViewModel.m in Sources */,
+				357B07451ED72863001AE5B8 /* ZXCollectVC.m in Sources */,
+				357B07571ED73A4A001AE5B8 /* ZXAnchorVC.m in Sources */,
+				353950271ED7FE0300146DD1 /* ZXHomePageNetManager.m in Sources */,
+				35E4F4001EE3C225008AF42E /* ZXSettingViewController.m in Sources */,
+				3539504F1ED849B500146DD1 /* ZXTitleView.m in Sources */,
+				35BC27ED1ED701C900635903 /* ZXTabBarController.m in Sources */,
+				3539507D1ED8575A00146DD1 /* ZXMusicDetailCell.m in Sources */,
+				351543711EE003C70048ACA5 /* ZXEditorMoreViewModel.m in Sources */,
+				351543771EE006E10048ACA5 /* ZXEditorCell.m in Sources */,
+				351543931EE0197E0048ACA5 /* ZXMoreCategoryVC.m in Sources */,
+				351543871EE0152A0048ACA5 /* ZXMoreViewController.m in Sources */,
+				3539504C1ED8330F00146DD1 /* iCarousel.m in Sources */,
+				357B07231ED722A3001AE5B8 /* ZXMeViewController.m in Sources */,
+				35E4F3F71EE3BB5E008AF42E /* ZXAnchorViewModel.m in Sources */,
+				353950151ED7F17D00146DD1 /* ZXBaseViewModel.m in Sources */,
 				355443991ED6F7E1003B43F1 /* AppDelegate.m in Sources */,
+				353950211ED7F5AA00146DD1 /* ZXHomePageModel.m in Sources */,
+				357B07481ED7289B001AE5B8 /* ZXHistoryVC.m in Sources */,
+				3539502A1ED7FEBD00146DD1 /* ZXCategoryModel.m in Sources */,
+				357B07541ED73A29001AE5B8 /* ZXRankingVC.m in Sources */,
+				3539506B1ED853CB00146DD1 /* ZXMoreCotentNetManager.m in Sources */,
+				351543741EE0048B0048ACA5 /* ZXEditorModel.m in Sources */,
+				3539505E1ED84FC900146DD1 /* ZXIconNameView.m in Sources */,
+				357B073F1ED72412001AE5B8 /* ZXSoundViewController.m in Sources */,
+				35E4F3E81EE3AE6F008AF42E /* ZXLiveRadioCell.m in Sources */,
+				353950711ED8551B00146DD1 /* ZXMenusModel.m in Sources */,
+				3539501E1ED7F54E00146DD1 /* ZXBaseModel.m in Sources */,
+				35E4F3E51EE3AC62008AF42E /* ZXLiveViewModel.m in Sources */,
+				353950301ED814AC00146DD1 /* ZXRankModel.m in Sources */,
+				35E4F3EE1EE3B078008AF42E /* ZXLiveTopCell.m in Sources */,
+				35E4F3FD1EE3BBE4008AF42E /* ZXAnchorView.m in Sources */,
+				357B07421ED7282A001AE5B8 /* ZXAttentionVC.m in Sources */,
+				35E4F3DC1EE3A037008AF42E /* ZXCategoryButton.m in Sources */,
+				35CF74CC1ED7460C00DBC975 /* ZXSoundVC.m in Sources */,
+				35E4F3FA1EE3BBBD008AF42E /* ZXAnchorCell.m in Sources */,
+				35E4F3D91EE39D01008AF42E /* ZXCategorySpecialCell.m in Sources */,
 				355443961ED6F7E1003B43F1 /* main.m in Sources */,
+				353950401ED81D9200146DD1 /* ZXContentShowView.m in Sources */,
+				35CF74C91ED745DD00DBC975 /* ZXAlbumVC.m in Sources */,
+				357B074B1ED7398A001AE5B8 /* ZXHomePageVC.m in Sources */,
+				353950611ED8500F00146DD1 /* ZXDescView.m in Sources */,
+				35E4F3F41EE3B68F008AF42E /* ZXRankCell.m in Sources */,
+				3515437A1EE0101D0048ACA5 /* ZXSpecialMoreVC.m in Sources */,
+				35E4F3DF1EE3A12A008AF42E /* ZXCategoryCommonCell.m in Sources */,
+				3515438D1EE015D00048ACA5 /* ZXMoreContentViewModel.m in Sources */,
+				35CF74CF1ED7462400DBC975 /* ZXDownloadingVC.m in Sources */,
+				351543801EE0125E0048ACA5 /* ZXSpecialModel.m in Sources */,
+				353950241ED7FA1400146DD1 /* ZXBaseNetManager.m in Sources */,
+				35E4F3F11EE3B5FB008AF42E /* ZXRankViewModel.m in Sources */,
+				351543901EE017C20048ACA5 /* ZXMoreCategoryCell.m in Sources */,
+				35E4F3E21EE3A283008AF42E /* ZXCategoryViewModel.m in Sources */,
+				3539505B1ED84F6B00146DD1 /* ZXPicView.m in Sources */,
+				3539506E1ED8546700146DD1 /* ZXContentsModel.m in Sources */,
+				3515438A1EE0159B0048ACA5 /* ZXMoreRecommendController.m in Sources */,
+				353950651ED8521B00146DD1 /* ZXTracksViewModel.m in Sources */,
+				353950331ED815A100146DD1 /* ZXLiveModel.m in Sources */,
+				357B07181ED70E94001AE5B8 /* ZXPlayView.m in Sources */,
+				353950491ED82D6000146DD1 /* ZXFocusImageScrollView.m in Sources */,
+				353950521ED84B6900146DD1 /* ZXMoreButton.m in Sources */,
+				35BC27F51ED7025B00635903 /* ZXNavigationController.m in Sources */,
+				357B07511ED73A09001AE5B8 /* ZXLiveVC.m in Sources */,
+				353950461ED82B1800146DD1 /* ZXSpecialCell.m in Sources */,
+				3539503D1ED81D5D00146DD1 /* ZXFindPutCell.m in Sources */,
+				357B07151ED70C99001AE5B8 /* MBProgressHUD+ZX.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,8 +1175,11 @@
 		};
 		355443A91ED6F7E1003B43F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8809CF3D951D5497EB8DDB7F /* Pods-喜马拉雅FM.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/喜马拉雅FM/Resource/PrefixHeader.pch";
 				INFOPLIST_FILE = "喜马拉雅FM/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.habav.----FM";
@@ -272,8 +1189,11 @@
 		};
 		355443AA1ED6F7E1003B43F1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99A89BC2937102009B2232C6 /* Pods-喜马拉雅FM.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/喜马拉雅FM/Resource/PrefixHeader.pch";
 				INFOPLIST_FILE = "喜马拉雅FM/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.habav.----FM";
@@ -300,6 +1220,7 @@
 				355443AA1ED6F7E1003B43F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
