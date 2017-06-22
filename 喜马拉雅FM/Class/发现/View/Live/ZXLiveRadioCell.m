@@ -2,7 +2,7 @@
 //  ZXLiveRadioCell.m
 //  喜马拉雅FM
 //
-//  Created by xinying on 2017/6/4.
+//  Created by xinying on 2017/3/4.
 //  Copyright © 2017年 habav. All rights reserved.
 //
 
@@ -26,6 +26,7 @@
         [self.btn1 setImage:[UIImage imageNamed:@"liveCountry"] forState:UIControlStateNormal];
         [self.btn2 setImage:[UIImage imageNamed:@"liveProvince"] forState:UIControlStateNormal];
         [self.btn3 setImage:[UIImage imageNamed:@"liveNet"] forState:UIControlStateNormal];
+
     }
     return self;
 }
