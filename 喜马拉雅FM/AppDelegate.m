@@ -2,7 +2,7 @@
 //  AppDelegate.m
 //  喜马拉雅FM
 //
-//  Created by xinying on 2017/5/25.
+//  Created by xinying on 2017/2/25.
 //  Copyright © 2017年 habav. All rights reserved.
 //
 
@@ -18,7 +18,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    
+
     NSString *parcentStr =[@"%E5%B0%8F%E7%BC%96%E6%8E%A8%E8%8D%90" stringByRemovingPercentEncoding];
     ZXLog(@"%@",parcentStr);
     
@@ -29,7 +29,7 @@
     self.window.rootViewController =navi;
     self.window.backgroundColor =[UIColor whiteColor];
     [self.window makeKeyAndVisible];
-    
+
     return YES;
 }
 
