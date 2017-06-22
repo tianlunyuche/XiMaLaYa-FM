@@ -2,7 +2,7 @@
 //  ZXDestinationVC.m
 //  喜马拉雅FM
 //
-//  Created by xinying on 2017/5/26.
+//  Created by xinying on 2017/2/26.
 //  Copyright © 2017年 habav. All rights reserved.
 //
 
@@ -65,6 +65,7 @@
 
 // 视图即将消失
 - (void)viewWillDisappear:(BOOL)animated {
+    [super viewWillDisappear:animated];
     self.navigationController.navigationBar.hidden = NO;
 }
 
